@@ -3,4 +3,5 @@ module.exports = {
   images: {
     domains: ['cdn.pixabay.com', 'dashboard.bunabridals.com'],
   },
+  target: "serverless"
 }
