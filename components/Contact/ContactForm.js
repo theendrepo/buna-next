@@ -89,6 +89,7 @@ const ContactForm = () => {
                         <input type="text" name="email" placeholder="Your email" value={email} onChange={e => setEmail(e.target.value)} />
                     </div>
                     <div className="form-input form-input--100">
+                        
                         <textarea
                         value={message}
                         name="message"
@@ -113,7 +114,7 @@ const ContactForm = () => {
                     </>
                 {/* )}
             </Mutation> */}
-            
+
 
             <div className="contact-form__map">
                 <div id="map">
